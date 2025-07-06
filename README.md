@@ -1,5 +1,4 @@
 # Synthea
-# Synthea
 
 > An exploration into the architecture of a synthetic mind.
 
