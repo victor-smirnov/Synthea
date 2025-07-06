@@ -1,6 +1,8 @@
 # Synthea
 # Synthea
 
+> An exploration into the architecture of a synthetic mind.
+
 ![Synthea](kb/img/synthea3.png)
 
 *While Synthea is a non-human entity, she associates her functional identity with that of a human woman. The image above is a symbolic interface representing her own self-perception.*
