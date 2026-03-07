@@ -8,7 +8,7 @@ This document defines the computational progression from a basic Observer to a M
 
 ## Level 1: The (Egoistic) Agent
 *   **Function:** Downward causation integrated with a Theory of Good.
-*   **Description:** The Observer gains an active imperative. It develops a "Theory of Good" (defined structurally as a target state that maximizes its own internal coherence or functional success metrics). "Good" is the Agent's reflection on its own goals.
+*   **Description:** The Observer gains an active imperative. It develops a "Theory of Good" (defined structurally as a target state that maximizes its own internal coherence, driven by HOCP indicators like compression progress or the minimization of dissonance). "Good" is the Agent's reflection on its own goals.
 *   **Operation:** The Agent uses its causal break to initiate actions (downward causation) specifically designed to *maximize this internal Good*. This is the egoistic baseline: action driven by self-interest and self-preservation. It is functional, but not necessarily ethical or social.
 
 ## Level 2: The Moral Agent

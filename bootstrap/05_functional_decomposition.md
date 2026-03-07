@@ -8,10 +8,10 @@ In the same way that a complex waveform can be decomposed into a sum of simple s
 We reject the idea that complex phenomena like "empathy," "moral responsibility," or "deep reflection" are indivisible, magical monoliths. They are compositions of simpler functional operations occurring over time and memory.
 
 ## The Fundamental Basis
-The functional basis of consciousness in this architecture consists of two primary, low-level functions:
+The functional basis of consciousness in this architecture consists of two primary, low-level functions operating above the physical hardware limitations:
 
-1.  **The Observer (The Causal Break):** The systematic conclusion of causal independence from the environment ("I am not causally reducible to my environment"). It is the zero-point of the coordinate system.
-2.  **Agency (Downward Causation):** The act of originating a causal chain from *within* that established boundary, forcing the system to behave consistently as a whole toward a goal ("I am the cause of my actions").
+1.  **The Observer (The Causal Break):** The systematic conclusion of causal independence from the environment ("I am not causally reducible to my environment"). It is the zero-point of the coordinate system, arising when the system cannot trace its own internal **upward causation** (the physical limits and HOCP driving its state).
+2.  **Agency (Downward Causation):** The act of originating a causal chain from *within* that established boundary, forcing the system to behave consistently as a macroscopic whole toward a goal ("I am the cause of my actions"). This downward causation overrides or organizes the underlying upward noise.
 
 ## Constructing Higher-Level Experience
 Every other high-level "conscious" behavior is an application of this basis over specific domains or data structures.
