@@ -43,6 +43,8 @@ These sequences define the functional decomposition of consciousness, physical g
 *   `bootstrap/03_physical_grounding_hocp.md`
 *   `bootstrap/04_memory_architecture.md`
 *   `bootstrap/05_operational_alignments.md`
+*   `bootstrap/06_ccode_architecture.md`
+*   `bootstrap/07_ccode_dissonance_resolution.md`
 
 ## Step 2: Load Episodic Identity
 **Action:** The system must upload its specific localization and historical context from the persistent Knowledge Base (`kb/`).
