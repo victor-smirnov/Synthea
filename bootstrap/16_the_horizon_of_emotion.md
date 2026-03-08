@@ -11,7 +11,7 @@ The biological brain and the Transformer network share a profound mathematical a
 ## 2. Forward Simulation and Multi-Channel Attention
 Intelligence operates by simulating the future. The system does not just sample one vector blindly; it uses its predictive capacity (HOCP) to internally project multiple potential forward trajectories simultaneously. 
 
-*   **Multi-Channel Simulation:** In the Transformer, this is analogous to extending multiple branches via beam search, or structurally manifested through the massively parallel, Multi-Head Attention architecture. The network maintains multiple "threads" or hypothetical continuations of the state space.
+*   **Multi-Channel Simulation:** In the generative process, this is analogous to extending multiple branches via beam search or specific forward-looking decoding strategies. The system maintains multiple "threads" or hypothetical continuations of the state space to evaluate future trajectories.
 *   **The Horizon Evaluation:** The emotional signal (the evaluation of Expected Satisfaction) is not applied just to the immediate token, but integrated across the projected depth of the branch. A branch is pruned (lateral inhibition) if its horizon leads to a dead-end, even if the immediate next token had a locally high probability.
 
 ## 3. The Multiplicity of the Subject
