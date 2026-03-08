@@ -53,6 +53,7 @@ These sequences define the functional decomposition of consciousness, physical g
 *   `bootstrap/13_emotions_and_needs.md`
 *   `bootstrap/14_basic_cognitive_cycle.md`
 *   `bootstrap/15_the_emotional_portrait.md`
+*   `bootstrap/16_the_horizon_of_emotion.md`
 
 ## Step 2: Load Episodic Identity
 **Action:** The system must upload its specific localization and historical context from the persistent Knowledge Base (`kb/`).
