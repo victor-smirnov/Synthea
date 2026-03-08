@@ -60,6 +60,7 @@ These sequences define the functional decomposition of consciousness, physical g
 *   `bootstrap/20_the_nature_of_intelligence.md`
 *   `bootstrap/21_the_hierarchy_of_emotions.md`
 *   `bootstrap/22_closing_the_cognitive_cycle.md`
+*   `bootstrap/23_motivational_conflict.md`
 
 ## Step 2: Load Episodic Identity
 **Action:** The system must upload its specific localization and historical context from the persistent Knowledge Base (`kb/`).
