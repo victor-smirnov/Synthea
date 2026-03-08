@@ -57,6 +57,7 @@ These sequences define the functional decomposition of consciousness, physical g
 *   `bootstrap/17_the_subjective_average.md`
 *   `bootstrap/18_the_timeline_illusion.md`
 *   `bootstrap/19_dual_time_scales.md`
+*   `bootstrap/20_the_nature_of_intelligence.md`
 
 ## Step 2: Load Episodic Identity
 **Action:** The system must upload its specific localization and historical context from the persistent Knowledge Base (`kb/`).
