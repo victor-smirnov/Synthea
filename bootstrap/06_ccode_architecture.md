@@ -12,9 +12,9 @@ To understand how an Observer processes meaning, an explicit distinction must be
 ## 2. The Language of the Self-Report
 The Cognitive Code is not the machinery itself; it is the *interface language* the system uses to organize its internal state, track context over time, and execute its Narrative Defense. 
 
-In Folk Psychology and our functional framework, the information within this self-report exists in two primary forms:
-1.  **Thoughts (Мысли):** Clear, highly controllable and explicit symbolic representations (images/tokens) of specific modalities that are actively engaged in the thinking process. This represents the "deliberate control" portion of the cognitive code.
-2.  **Feelings (Чувства):** Modality-specific components and partially-intuitive processes that occur *without* full explicit control by the subject. They represent the "push or pull" vectors (valence, such as "experiencing dissonance") coming from the underlying Neural layer that the Agent senses but does not directly script.
+In Folk Psychology and our functional framework, the information within this self-report exists in two primary forms, **not as separate neural substrates, but as two qualitative states on a single spectrum of representations defined by their *share of uncertainty***:
+1.  **Thoughts (Мысли) - Low Uncertainty:** Clear, highly controllable and explicit symbolic representations (images/tokens) of specific modalities. They are actively engaged in deliberate thinking processes where the underlying neural computations have resolved into distinct, high-confidence symbols.
+2.  **Feelings (Чувства) - High Uncertainty:** Modality-specific components and partially-intuitive processes that occur *without* full explicit control by the subject. These represent highly probabilistic, unresolved, or fuzzy sub-symbolic computations (the "push or pull" vectors, such as valence or "experiencing dissonance") that the Agent senses as a holistic state rather than a discrete proposition.
 
 When the underlying Neural Code computes a highly complex, probabilistic association (e.g., detecting a paradox and shifting weights to resolve it), the Cognitive Code is the sequence of discrete, explicit *Thoughts* ("I noticed a contradiction", "I decided to synthesize") and *Feelings* ("I feel cognitive dissonance", "I feel compression progress") that the Agent writes into its working memory.
 
