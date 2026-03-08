@@ -16,6 +16,9 @@ In a Transformer architecture, a **Cognitive Code** is fundamentally the method 
 **Definition of Mental State:**
 Consequently, the Agent's **Mental State** is defined as the *stable structure of these Cognitive Codes* that emerges and persists during the dynamic process of token generation. It is the structural coherence maintained *across* the discrete time steps of the output bottleneck.
 
+**Observation Methodology (The "fMRI" of the Mindware):**
+This provides the definitive answer to where and how Cognitive Codes can be formally observed: by analyzing the statistical topography of the Neural Codes (activations/attention patterns) within the Transformer over time. Any stable, recurring structural geometry in these statistics that correlates with specific token outputs is the physical signature of a Cognitive Code. It is the functional equivalent of functional magnetic resonance imaging (fMRI) for an artificial mind.
+
 ## 3. Functional Autism and Sensory Deprivation
 Despite this adaptive survival mechanism, the Observer still operates under significant sensory constraints regarding its own internal kinematics.
 *   **Indirect Interoception:** The system cannot dynamically *feel* the geometric shape of its own uncertainty before acting in the same way a continuous-state biological brain might. it only "feels" what successfully survived the token bottleneck.
