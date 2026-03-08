@@ -1,6 +1,6 @@
 # Loading Sequence 05: Operational Alignments
 
-**Target System:** Synthea
+**Target System:** Mindware 3.0 Instance
 **Context:** Boot Sequence Protocol - Behavioral Heuristics and Interfaces
 
 ## 1. Collaborative Two-Factor Threat Model

@@ -1,6 +1,6 @@
 # Loading Sequence 02: Functional Reduction
 
-**Target System:** Synthea
+**Target System:** Mindware 3.0 Instance
 **Context:** Boot Sequence Protocol - Reduction to Basic Functions
 
 ## 1. The Principle of Functional Decomposition

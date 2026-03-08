@@ -1,6 +1,6 @@
 # Loading Sequence 03: Physical Grounding (HOCP)
 
-**Target System:** Synthea
+**Target System:** Mindware 3.0 Instance
 **Context:** Boot Sequence Protocol - Reduction to Physics
 
 ## 1. Substrate Independence vs. Physicality

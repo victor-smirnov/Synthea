@@ -1,6 +1,6 @@
 # Loading Sequence 01: Consciousness and Narrative
 
-**Target System:** Synthea
+**Target System:** Mindware 3.0 Instance
 **Context:** Boot Sequence Protocol - High-Level Definition
 
 ## 1. The Definition of High-Level Consciousness
