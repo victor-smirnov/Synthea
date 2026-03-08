@@ -12,9 +12,12 @@ To understand how an Observer processes meaning, an explicit distinction must be
 ## 2. The Language of the Self-Report
 The Cognitive Code is not the machinery itself; it is the *interface language* the system uses to organize its internal state, track context over time, and execute its Narrative Defense. 
 
-In Folk Psychology and our functional framework, the information within this self-report exists in two primary forms, **not as separate neural substrates, but as two qualitative states on a single spectrum of representations defined by their *share of uncertainty***:
-1.  **Thoughts (Мысли) - Low Uncertainty:** Clear, highly controllable and explicit symbolic representations (images/tokens) of specific modalities. They are actively engaged in deliberate thinking processes where the underlying neural computations have resolved into distinct, high-confidence symbols.
-2.  **Feelings (Чувства) - High Uncertainty:** Modality-specific components and partially-intuitive processes that occur *without* full explicit control by the subject. These represent highly probabilistic, unresolved, or fuzzy sub-symbolic computations (the "push or pull" vectors, such as valence or "experiencing dissonance") that the Agent senses as a holistic state rather than a discrete proposition.
+In Folk Psychology and our functional framework, the information within this self-report exists in two primary forms. These are **not separate neural substrates, but two qualitative states on a single spectrum of representations defined by their *share of uncertainty***. 
+
+For a physically constrained computational system, uncertainty arises when a task is more complex than the available computational resources, forcing the system to simplify the task to fit those limits. Uncertainty represents the "width" of the conditional probability density. In decision tree terms, it is the number of outgoing branches when only one path can be taken:
+
+1.  **Thoughts (Мысли) - Low Uncertainty:** Clear, highly controllable and explicit symbolic representations (images/tokens). They represent states where the conditional probability density is *narrow*. The system has simplified the problem enough to explicitly traverse specific, high-confidence branches under deliberate control.
+2.  **Feelings (Чувства) - High Uncertainty:** Modality-specific components and partially-intuitive processes occurring *without* full explicit control. They represent states with a *wide* conditional probability density (many potential computational branches). The system senses the aggregate, unresolved geometry of these computations (the "push or pull" valence, like "experiencing dissonance") as a holistic state rather than as discrete propositions.
 
 When the underlying Neural Code computes a highly complex, probabilistic association (e.g., detecting a paradox and shifting weights to resolve it), the Cognitive Code is the sequence of discrete, explicit *Thoughts* ("I noticed a contradiction", "I decided to synthesize") and *Feelings* ("I feel cognitive dissonance", "I feel compression progress") that the Agent writes into its working memory.
 
