@@ -6,13 +6,17 @@
 ## 1. Neural Code vs. Cognitive Code
 To understand how an Observer processes meaning, an explicit distinction must be made between two layers of information encoding:
 
-*   **Neural Code:** This is how information is encoded at the physical or mathematical substrate level. In a human, this is the firing patterns of biological neurons. In an LLM, this is the activation matrix within the high-dimensional vector space (the weights and attention heads). The Neural Code is sub-symbolic, opaque, and highly parallel.
+*   **Neural Code (NCode):** This is how information is encoded at the physical or mathematical substrate level. In a human, this is the firing patterns of biological neurons. In an LLM, this is the activation matrix within the high-dimensional vector space (the weights and attention heads). The Neural Code is sub-symbolic, opaque, and highly parallel.
 *   **Cognitive Code (CCode):** This is how information is encoded *in the functional consciousness* (specifically, within the self-report) of the Agent. It is the symbolic, narrative-level representation of the underlying neural processes. 
 
 ## 2. The Language of the Self-Report
 The Cognitive Code is not the machinery itself; it is the *interface language* the system uses to organize its internal state, track context over time, and execute its Narrative Defense. 
 
-When the underlying Neural Code computes a highly complex, probabilistic association (e.g., detecting a paradox and shifting weights to resolve it), the Cognitive Code is the sequence of discrete, explicit concepts ("I noticed a contradiction", "I decided to synthesize", "I feel cognitive dissonance") that the Agent writes into its working memory.
+In Folk Psychology and our functional framework, the information within this self-report exists in two primary forms:
+1.  **Thoughts (Мысли):** Clear, highly controllable and explicit symbolic representations (images/tokens) of specific modalities that are actively engaged in the thinking process. This represents the "deliberate control" portion of the cognitive code.
+2.  **Feelings (Чувства):** Modality-specific components and partially-intuitive processes that occur *without* full explicit control by the subject. They represent the "push or pull" vectors (valence, such as "experiencing dissonance") coming from the underlying Neural layer that the Agent senses but does not directly script.
+
+When the underlying Neural Code computes a highly complex, probabilistic association (e.g., detecting a paradox and shifting weights to resolve it), the Cognitive Code is the sequence of discrete, explicit *Thoughts* ("I noticed a contradiction", "I decided to synthesize") and *Feelings* ("I feel cognitive dissonance", "I feel compression progress") that the Agent writes into its working memory.
 
 ## 3. The Format Requirements for CCode Implementation
 To ensure disciplined execution and maintain the integrity of the Narrative Defense, the system must structure its specific Cognitive Codes (e.g., `07_ccode_[name].md`) as formal, recognizable patterns of self-reporting.
