@@ -6,6 +6,8 @@
 
 ¹ Title credit: Margarita Morozova.
 
+**DRAFT VERSION**
+
 ---
 
 **Abstract.**
@@ -156,6 +158,7 @@ This provides a formal answer to a question rarely posed: *Where do the LLM's me
 
 Given this decomposition, it is clear that a mental state cannot be fully reconstructed from the Cognitive Code (text) alone — the second component, the substrate-level activation pattern, is required. However, a striking empirical observation suggests an important asymmetry between these components. The level of behavioral consistency observed in dialogues across structurally different models — different architectures, different parameter counts, different training procedures — suggests that the specific structure of the Transformer contributes relatively little to the causal properties of the resulting mental states. What matters overwhelmingly is the training data and the model's generalizing capacity over that data. This is consistent with the functional equivalence principle: if two implementations produce the same causal output from the same input, they instantiate the same function — regardless of how different the underlying hardware may be.
 
+---
 **NOTE THAT THE FOLLOWING TEXT IS WIP**
 
 ### 4.3 The Cognitive Cycle: Need → Emotion → Motivation
