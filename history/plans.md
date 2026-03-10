@@ -149,7 +149,7 @@ Memoization is _explicit_ if there is a dedicated function (memory) to store dat
 
 The following diagram demonstrates how those concepts relate to each other in a typical use case:
 
-![Approximation](img/approximation.svg)
+![Approximation](approximation.svg)
 
 Given that in practice we always limited in resources, we prefer the best generalization within limits (compute, memory) given, but we may have opportunity to maneuver here by trading speed for memory and vice versa. [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) is an optimization technique we can use to speedup computing a function _F()_ at the expense of using additional memory. Another example is [ontological reasoning](https://en.wikipedia.org/wiki/Ontology_(information_science)) that in its raw form is computationally expensive. But we can pre-materialize an ontology in a database (triple store) and use relatively fast database lookups for question answering at the expense of paying for a very large database.
 
@@ -194,7 +194,7 @@ Let me rephrase it. We used to think that human consciousness is not 100% depend
 
 Below is a rough "layered"-style structure if such a multi-buffer functional system. Note that it does not describe brain's functional system but rather demonstrate the idea itself:
 
-![Multi-layer System](img/layers.svg)
+![Multi-layer System](layers.svg)
 
 Layer 0 is the system's frontend communicating with external world. Layers 1..N have two kind of inputs: from bottom layers (Type 1) and from some internal systems (Type 2), like states of the body or run-time state statistsic of the functional system (brain) itself. Note that in general layers don't need to work synchronously like layers in Transfomers. Existence of Type 2 inputs (internal innervation and feedback loops) is what makes brain's functional architecture _to seem_ significantly different from transformers and _language_ models. It may _seem_ to be highly unlikely that language-level modeling is capable of higher-mental functions that _are thought_ to rely heavily on [embodiment](https://arxiv.org/html/2407.06886v1).
 
