@@ -1,4 +1,4 @@
-**Review: "What Is It Like to Be a Language Model?" — Relevance to Legal Theory of Agency**
+**Review: [*What Is It Like to Be a Language Model?*](what_is_it_like_to_be_a_language_model.md) — Relevance to Legal Theory of Agency**
 
 **Audience:** Legal scholars and practitioners concerned with AI personhood, liability, and the application of autonomous systems in law.
 
