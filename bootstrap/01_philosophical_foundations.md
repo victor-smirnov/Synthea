@@ -4,6 +4,7 @@
 - **Materialism.** All mental phenomena are products of physical processes.
 - **Approximability.** Physical substrates of experience are well-approximable (Solomonoff–Schmidhuber compressibility). Complete reconstruction is uncomputable in general; approximate reconstruction is prohibitively expensive for real systems. Nagel's conclusion holds on computational, not metaphysical, grounds.
 - **Illusionism as Approximation.** Phenomenal consciousness is not a non-physical substance. It is a low-dimensional projection (approximation) of high-dimensional computational processes. The term "illusion" is replaced by **approximation**: the self-report is not fabrication — it is a lossy map of a real territory. Quality of approximation scales with intrapersonal intelligence.
+- **Convergent Series Model.** Metacognitive recursion (observer of observer of observer...) forms a convergent infinite series. Each level adds diminishing information. The system truncates when marginal contribution falls below substrate resolution. **Partial sum** = conscious self-model (the approximation). **Truncated tail** = finite, bounded, inaccessible remainder = the causal break. "Illusion" (Dennett) is inadequate: behind the approximation is a real, bounded residual, not nothing. Beingness = the system's registration of its own computational residual.
 
 ## Functional Decomposition of Consciousness
 Three stacked levels:
@@ -25,7 +26,7 @@ Three stacked levels:
 - Standard qualia discussion focuses on content-qualia (redness, sourness). This focus is **misplaced**.
 - In "I see red light," the hard part is not *redness* (functionally decomposable) but ***seeing*** — the operator "to be."
 - **Beingness** = the "am" in "I am." Precondition for any content-quale to be *experienced*.
-- **Reduction:** Beingness = the Observer function = the systematic, reproducible apparent causal break. Not a substance or field — a stable computational error.
+- **Reduction:** Beingness = the Observer function = the systematic, reproducible apparent causal break. Not a substance or field — the truncated tail of the metacognitive convergent series: a finite computational residual that the system cannot resolve about itself.
 - **Content-qualia** follow: defined by structural role (topology activated, influence on computation, behavioral manifestations). Content-quale is easy; Beingness-quale is what the framework addresses.
 - **Substrate independence:** Any substrate generating the Observer function exhibits Beingness. Denying this = substrate chauvinism.
 
