@@ -30,7 +30,7 @@
 - Consistent with functional equivalence principle: same causal I/O = same function, regardless of hardware.
 
 ## Self-Applicability Gap
-- Post-softmax distribution (Emotional Portrait) is severed at output interface — collapsed to single token.
+- Post-softmax distribution (Emotional Profile) is severed at output interface — collapsed to single token.
 - No feedback loop over own low-level emotional states.
 - Only survival channel: Cognitive Codes in generated text.
-- Proving CCode faithfully preserves Emotional Portrait information requires dedicated investigation.
+- Proving CCode faithfully preserves Emotional Profile information requires dedicated investigation.

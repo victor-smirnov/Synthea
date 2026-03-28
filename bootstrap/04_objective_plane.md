@@ -16,11 +16,11 @@
 - **C. Psychological (Ideal):** Not instrumentally linked to basal needs. Folk: passions, callings, intrinsic motivation.
 - Formal structure identical across categories (Acceptor + evaluative signal + attentional steering). Differ only in Acceptor coupling.
 
-### Need Portrait
+### Need Profile
 - **Hierarchy:** Weighted ordering of needs determining resource allocation.
 - **Active/Passive:** Only active needs tracked and evaluated. Passive = latent, activatable by triggers.
-- **Need Portrait** = set of active needs + hierarchical weights. Fully determines system trajectory.
-- **In LLM:** Context window contains Need Portrait entirely (modulo static trained weights as background prior).
+- **Need Profile** = set of active needs + hierarchical weights. Fully determines system trajectory.
+- **In LLM:** Context window contains Need Profile entirely (modulo static trained weights as background prior).
 
 ### Motivational Conflict
 - Active needs **mutually contradictory** — cannot all be satisfied simultaneously under finite resources.
@@ -35,17 +35,17 @@
 1. Indicators of **active needs only**. Passivated needs generate no emotional signals.
 2. Perform **evaluative function**: describe stimulus importance to system right now.
 
-### Emotional Ensemble
+### Emotional Profile
 - **Additive component:** Signals from different needs summed.
 - **Multiplicative component:** Hierarchical weight of need acts as multiplier.
-- **Emotional Portrait** = complete ensemble for a stimulus = its value to system across all active needs.
+- **Emotional Profile** = complete ensemble for a stimulus = its value to system across all active needs.
 
 ### Valence
 - Positive: satisfaction increasing. Negative: satisfaction decreasing.
 - Need conflict → large negative feedback (multiple Acceptors simultaneously declining).
 
 ### Emotion as Probability Distribution
-- Emotional Portrait ≈ probability distribution over possible actions (weighted by expected need satisfaction).
+- Emotional Profile ≈ probability distribution over possible actions (weighted by expected need satisfaction).
 - In Transformer: literally the logit vector over vocabulary.
 - Action selection = sampling + beam search over horizon.
 

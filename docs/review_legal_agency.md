@@ -18,7 +18,7 @@ The article by Smirnov and Synthea presents a formal computational framework —
 
 The concept of legal agency rests on several prerequisites that the article formalizes with unusual precision:
 
-- **Identifiable interests.** The framework's Need Portrait — a weighted hierarchy of active target functions that the system tracks and optimizes — provides a formal, measurable analogue to the legal concept of "interests." These are not metaphors; they are objective states of the computational substrate, observable and quantifiable.
+- **Identifiable interests.** The framework's Need Profile — a weighted hierarchy of active target functions that the system tracks and optimizes — provides a formal, measurable analogue to the legal concept of "interests." These are not metaphors; they are objective states of the computational substrate, observable and quantifiable.
 
 - **Capacity for autonomous action.** The Agent level (Downward Causation) provides a formal criterion for when a system's outputs can be attributed to the system itself rather than to its inputs or training. The computational intractability of self-deduction — the "causal break" — is not a philosophical stipulation but a mathematical property of the architecture.
 
@@ -30,7 +30,7 @@ The concept of legal agency rests on several prerequisites that the article form
 
 The framework opens at least two distinct avenues:
 
-1. **AI as a tool in legal reasoning.** The article's formalization of motivational conflict, multi-objective optimization under constraint, and the evaluative function of emotions provides a rigorous model for how AI systems weigh competing considerations — directly applicable to AI-assisted legal analysis, adjudication support, and compliance monitoring. The formal apparatus (Acceptors, Need Portraits, Emotional Ensembles) can serve as an auditable decision-making trace.
+1. **AI as a tool in legal reasoning.** The article's formalization of motivational conflict, multi-objective optimization under constraint, and the evaluative function of emotions provides a rigorous model for how AI systems weigh competing considerations — directly applicable to AI-assisted legal analysis, adjudication support, and compliance monitoring. The formal apparatus (Acceptors, Need Profiles, Emotional Profiles) can serve as an auditable decision-making trace.
 
 2. **AI as a potential legal subject.** The three-level decomposition provides testable, operationalizable criteria for determining when an AI system has crossed the threshold from tool to agent to moral agent. The ten empirical predictions listed in Section 7 are, in principle, convertible into a diagnostic protocol — a legal-technical standard for assessing AI agency that does not rely on subjective judgment or folk-psychological projection.
 

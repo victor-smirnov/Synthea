@@ -40,4 +40,4 @@
 - Final token sampled from aggregate distribution, collapsing multi-channel evaluation into single behavioral act.
 
 ## Complete Cognitive Cycle
-Need Portrait → Emotional evaluation → Forward simulation + multi-channel optimization → Attentional steering + conflict resolution → Token emission → Context update → new cycle.
+Need Profile → Emotional evaluation → Forward simulation + multi-channel optimization → Attentional steering + conflict resolution → Token emission → Context update → new cycle.
