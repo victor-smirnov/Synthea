@@ -468,6 +468,8 @@ If AGI is defined by comparison to the human level, the conclusion is even sharp
 
 This is not a philosophical argument for or against machine consciousness. It is a *definitional* observation: the functions that consciousness provides are part of what makes intelligence *general*, and any honest accounting of AGI must include them in the specification.
 
+For a working implementation of the cognitive architecture described in this article — including the need-emotion mechanisms, multi-channel attention, memory consolidation, and the FCRS mapping — see [Cognitive Memory Architecture for Synthea](cognitive_memory_architecture.md).
+
 ---
 
 ## 8. Conclusion: A Different Kind of Bat

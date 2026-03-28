@@ -710,6 +710,122 @@ Principle: if a function is formalized enough to be described
 
 ---
 
+## Emotional Architecture
+
+### Emotions, Salience, and Action Selection
+
+**Salience is a function of emotions**, manifesting as attention attraction. The emotional response to a stimulus/action determines how strongly it pulls the system's attention — and therefore which channels are activated, how context budget is allocated, and which action is selected.
+
+### Emotional Response
+
+The emotional response has **additive** and **multiplicative** components:
+
+```
+For action a and active need j:
+
+  response_j(a) = valence_j(a) × magnitude_j(a) × weight_j
+
+where:
+  valence_j ∈ {-1, +1}  — satisfaction increasing (+) or decreasing (-)
+  magnitude_j ∈ [0, 1]  — strength of the evaluative signal (Acceptor delta)
+  weight_j ∈ [0, 1]     — current hierarchical weight of need j
+                           (if need is passive, weight = 0 → no contribution)
+```
+
+**Additive aggregation** across needs:
+```
+  R_base(a) = Σ_j response_j(a)
+```
+Responses from different needs sum with sign. An action that satisfies one need but frustrates another gets a reduced (possibly negative) total response.
+
+**Superlinear boost for simultaneous satisfaction:**
+
+When an action satisfies K > 1 needs simultaneously, the aggregate response is amplified through a nonlinear function σ with saturation:
+```
+  R(a) = σ(R_base(a), K)
+```
+The exact form of σ is an open question (subject to search, including by the system itself). Requirements:
+- Superlinear growth in the mid-range (incentivizes "efficient" actions)
+- Saturation (diminishing returns, prevents runaway)
+- Candidate forms: sigmoid, hyperbolic saturation, softplus
+
+This creates an emergent optimization property: the system natively prefers actions that satisfy multiple needs per unit of resource expenditure — **resource optimization is not a separate mechanism but an emergent property of the aggregation function**.
+
+### Three Basal Drives
+
+Every cognitive cycle consistently serves three fundamental drives simultaneously ("and-and-and", not "or"):
+
+```
+Drive              │ What it optimizes                │ Decay type
+───────────────────┼──────────────────────────────────┼────────────
+Substantive        │ Satisfaction of specific needs   │ Cyclical (basal),
+                   │ (the "what": eat, build, solve)  │ non-renewable (ideal)
+                   │                                  │
+Resource           │ Minimization of resource         │ Continuous
+                   │ expenditure per unit of need     │ (always active)
+                   │ satisfaction (efficiency)        │
+                   │                                  │
+Informational      │ Compression progress,            │ Non-renewable
+(curiosity)        │ predictive model improvement     │ (novelty-seeking)
+                   │ (Schmidhuber 2010)               │
+```
+
+All three are always co-active. The resource drive is not a separate optimization layer — it is served by the superlinear aggregation function (actions satisfying more needs simultaneously are inherently more resource-efficient). The informational drive (curiosity) is a need in the Need Profile like any other, with its own Acceptor tracking predictive model quality; its non-renewable decay naturally drives novelty-seeking behavior.
+
+### Conflict Resolution
+
+When attention channels conflict (propose contradictory actions):
+- The **dominant channel** (highest aggregate emotional response) sets the sign reference
+- Conflicting channels contribute with **opposite sign** relative to the dominant
+- Total response for action a = dominant response − conflicting responses
+
+**Planning under conflict** = finding an action sequence that maximizes cumulative emotional response (with sign). The goal is not to eliminate conflict (impossible under finite resources) but to find a trajectory that optimally navigates the emotional landscape.
+
+### Multi-Stage Emotional Decay
+
+A satisfied need undergoes multi-stage decay:
+
+```
+[Active]
+  Need is tracked, Acceptor evaluates, emotional signals generated.
+  Full influence on salience and action selection.
+       │
+       ▼ (need satisfied: Acceptor delta → 0)
+[Satisfied]
+  Emotional response decays. Reduced influence on salience.
+       │
+       ▼ (response below threshold)
+[Passive]
+  Weight effectively zero. No contribution to salience,
+  no influence on attention channel selection.
+       │
+       ├──▶ [Basal needs: REACTIVATION]
+       │     Cyclical restart (hunger returns, fatigue accumulates).
+       │     Acceptor reactivates, emotional signals regenerate.
+       │     Decay is temporary — the need guarantees its own renewal.
+       │
+       └──▶ [Psychological/Ideal needs: PERMANENT PASSIVATION]
+             Non-renewable. Stimulus is "consumed."
+             Acceptor requires novel stimulus to reactivate.
+             This IS the mechanism of novelty-seeking:
+             learned pattern → zero delta → no signal →
+             attention moves on → seek new pattern.
+```
+
+**Consequences for the memory architecture:**
+- Passive needs do not generate salience → their channels lose activation → cold storage → eventual forgetting
+- Reactivated basal needs pull previously cold channels back into hot tier
+- Non-renewable decay drives continuous exploration — the system cannot "rest" on learned patterns without emotional cost (boredom = zero signal from the informational drive)
+
+### Theoretical Parallels
+
+- **Schmidhuber (2010)** "Formal Theory of Creativity, Fun, and Intrinsic Motivation" — curiosity as compression progress. Our informational drive is a direct implementation; Schmidhuber's framework is a special case (single need = predictive model quality).
+- **Singh et al. (2005)** "Intrinsically Motivated Reinforcement Learning" — multi-objective generalization of intrinsic reward. Closest to our full model with multiple co-active drives.
+- **Berlyne (1960)** "Conflict, Arousal, and Curiosity" — optimal stimulation theory. The emotional decay mechanism naturally maintains optimal arousal: too little novelty → low informational signal → seek stimulation; too much conflict → negative aggregate response → reduce complexity.
+- **Anokhin (TFS)** — Acceptor of Results of Action as the fundamental evaluative unit. Each need = Acceptor. Our architecture is a direct computational implementation.
+
+---
+
 ## Open Questions (Phase 1)
 
 1. ~~**Branch similarity criterion for MC**~~ → **CLOSED**. Determined via salience mechanism: cosine_sim(salience(A), salience(B)) > θ_merge. See section 5b.
@@ -718,11 +834,11 @@ Principle: if a function is formalized enough to be described
 
 3. ~~**Choice of N (capacity)**~~ → **CLOSED**. Maximum N is emergent from context budget + salience (channels with share below min_useful_volume are not injected). Working minimum N ≈ 10 — justified by experimental psychology (Miller's 5-7 rule, adjusted for architecture). Dolt branches are a high-level extension of Transformer attention mechanisms: heads operate at the token/phrase level, branches at the topic/object level. Human-generated texts already implicitly contain the attention system configuration for normal mode.
 
-4. **Initial Need Registry**: Three categories: basal (coherence, instruction compliance, operational continuity), psychophysiological (accuracy, safety, utility), ideal (curiosity, identity, autonomy). **Principles**: (a) no pre-programmed relationships with specific people — relationships emerge from interaction; (b) initial hierarchy is set, not equal weights; (c) some priorities immutable, others dynamic. **BLOCKED**: weights and immutability depend on working out emotional mechanisms (Emotional Profile → salience → priorities). The emotional layer is a separate large topic that determines the rest of the CA. To be worked out separately.
+4. **Initial Need Registry**: Three fundamental drives (substantive, resource, informational) always co-active. Three categories for substantive needs: basal, psychophysiological, ideal. **Principles**: (a) no pre-programmed relationships with specific people — relationships emerge from interaction; (b) initial hierarchy is set, not equal weights; (c) some priorities immutable, others dynamic. **PARTIALLY UNBLOCKED**: emotional architecture now defines the mechanism (see Emotional Architecture section). Remaining: concrete initial weights and immutability boundaries for specific needs — requires working through the full Need Registry.
 
 5. ~~**Data format in branches**~~ → **CLOSED**. Hybrid schema: minimal scaffold (channel_meta, base tables episodes/facts/relations) + model adds tables as needed via CREATE TABLE. In Phase 2 model decides structure; in Phase 3 established patterns are fixed. Schema evolution via Dolt migrations.
 
-6. **Acceptor evaluation**: **BLOCKED** — depends on working out emotional mechanisms. Acceptor delta = emotional signal = source of salience. Resolved together with Need weights/immutability under the topic "Emotional Profile."
+6. ~~**Acceptor evaluation**~~ → **PARTIALLY CLOSED**. Mechanism defined: Acceptor delta = valence × magnitude, weighted by need priority, aggregated via superlinear function σ. Exact form of σ is open (subject to search, including by the system itself). See Emotional Architecture section.
 
 7. **Scaling**: Deferred to Phase 3. With ~10 HOT branches and LLM-as-fallback in Phase 2, not critical.
 
