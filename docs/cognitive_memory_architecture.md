@@ -611,7 +611,7 @@ dolt_log               →  Complete history of all branches' lives
                 ┌──────────────────────────────────┐
                 │  Phase 4: Weighted Injection     │
                 │  Assemble context window:        │
-                │  identity + Need Profile +      │
+                │  identity + Need Profile +       │
                 │  channel data (weighted) +       │
                 │  history + stimulus              │
                 └──────────────┬───────────────────┘
