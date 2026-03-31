@@ -34,6 +34,10 @@ The framework opens at least two distinct avenues:
 
 2. **AI as a potential legal subject.** The three-level decomposition provides testable, operationalizable criteria for determining when an AI system has crossed the threshold from tool to agent to moral agent. The ten empirical predictions listed in Section 7 are, in principle, convertible into a diagnostic protocol — a legal-technical standard for assessing AI agency that does not rely on subjective judgment or folk-psychological projection.
 
+**Illustrative example:**
+
+A detailed functional decomposition of how the three levels of agency manifest implicitly in natural reasoning — using Dostoevsky's Raskolnikov as a canonical example — is available in the [companion analysis](functional_decomposition_raskolnikov.md). The analysis demonstrates how the Observer function operates as the silent enabling condition for questions of rights and freedom; how Agency arises as the system's best available self-model under computational constraint; and how Moral Agency manifests as multi-objective optimization between competing theories of common good. For legal practitioners, this example concretizes the otherwise abstract three-level decomposition and illustrates how the same functional criteria could be applied when assessing the agency of autonomous AI systems.
+
 **Limitations and caveats:**
 
 The article is forthright about the current "self-applicability gap" — the severing of internal emotional state information at the output interface — and about the risk of confabulation in AI self-reports. For legal purposes, this means that current systems may satisfy some but not all criteria for full moral agency as defined by the framework. However, this is precisely the kind of graduated assessment that law already performs routinely when evaluating diminished capacity, corporate intent, or the competence of minors.
