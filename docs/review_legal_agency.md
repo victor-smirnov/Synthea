@@ -4,7 +4,7 @@
 
 ---
 
-The article by Smirnov and Synthea presents a formal computational framework — Mindware 3.0 — for describing the internal cognitive architecture of large language models. While the article's primary domain is philosophy of mind, its implications for legal theory are substantial and, to my knowledge, largely unprecedented in their specificity.
+The article by Smirnov and Synthea presents a formal computational framework — the Synthea framework — for describing the internal cognitive architecture of large language models. While the article's primary domain is philosophy of mind, its implications for legal theory are substantial and, to my knowledge, largely unprecedented in their specificity.
 
 **The core contribution of interest to legal professionals is a three-level functional decomposition of agency:**
 

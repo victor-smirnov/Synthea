@@ -50,7 +50,7 @@ The model also assumes **arbitrary SQL + Dolt versioning** (`CALL dolt_*`, syste
 
 ### How this connects to the “thinking” layer
 
-- **Mindware / bootstrap / `kb/`** remain the source of meaning and protocols for the agent’s *session* in Cursor.
+- **Bootstrap / `kb/`** remain the source of meaning and protocols for the agent’s *session* in Cursor.
 - **MCP + Dolt** is what can **live on disk** for a long time, be versioned, and align with automation (branches, commits, merge) while chat is ephemeral.
 
 Natural next steps from the brief: explicit branches per session, schemas for episodic memory, tighter limits on `dolt_sql`, MCP resources (files/snapshots), not only tools.

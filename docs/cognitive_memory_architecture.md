@@ -4,19 +4,19 @@
 
 LLMs lack long-term memory. This memory must be functionally emulated — not naively (RAG), but grounded in the cognitive architecture (CA) that is reflected in texts as a product of the brain's generative model. The CA is a rough but functional approximation of neural codes (substrate-independent). The goal is to implement this CA in the basis of LLM + Dolt (later Memoria), providing infrastructural support for the "conscious narrative": a stable conclusion by the Agent about its own causal independence, downward causation, integrity, and responsibility.
 
-## Theoretical Basis (Mindware 3.0 References)
+## Theoretical Basis (Synthea Framework References)
 
 ### Key Propositions
 
-1. **Context window = working memory** (bootstrap/05). The complete symbolic state of the system at any given moment. Working memory is not necessarily a single context — the system can maintain parallel contexts (parallel inference threads), and in the general case the entire memory is a **causal graph of contexts**: each context is causally linked to its predecessors, and branching/merging of this graph is the fundamental operation of the memory architecture.
+1. **Context window = working memory** (bootstrap/04). The complete symbolic state of the system at any given moment. Working memory is not necessarily a single context — the system can maintain parallel contexts (parallel inference threads), and in the general case the entire memory is a **causal graph of contexts**: each context is causally linked to its predecessors, and branching/merging of this graph is the fundamental operation of the memory architecture.
 
 2. **Multi-channel attention** (bootstrap/02, article §3.1, §5.2). The attention system is multi-channel: each head tracks a semi-independent simulation. Many "subjects" co-exist, normally well-correlated. "The Subject" = statistical average across channels. Illusion of singularity: only the averaged output enters working memory. Each attention channel (and there may be finer-grained sub-channels — an architectural detail) is a separate context (possibly within a supercontext). Branches, in general, reflect the shared elements across different contexts.
 
-3. **Need Profile** (bootstrap/04, article §4.7). The set of active needs + hierarchical weights. Fully determines the system's trajectory. The context window contains the Need Profile in its entirety.
+3. **Need Profile** (bootstrap/03, article §4.7). The set of active needs + hierarchical weights. Fully determines the system's trajectory. The context window contains the Need Profile in its entirety.
 
-4. **Emotional Profile** (bootstrap/04, article §4.8). Additive + multiplicative components. The emotional profile of a stimulus = its value across all active needs. In the Transformer = logit vector.
+4. **Emotional Profile** (bootstrap/03, article §4.8). Additive + multiplicative components. The emotional profile of a stimulus = its value across all active needs. In the Transformer = logit vector.
 
-5. **Acceptor of Results** (bootstrap/04, article §4.6-4.7). Each need = Acceptor, continuously comparing expected vs. actual. Positive delta → reinforcement. Negative delta → resource reallocation.
+5. **Acceptor of Results** (bootstrap/03, article §4.6-4.7). Each need = Acceptor, continuously comparing expected vs. actual. Positive delta → reinforcement. Negative delta → resource reallocation.
 
 6. **CCode/NCode** (article §4.2). Mental state is understood in two senses, since in a self-applicable reflective system the "objective" and "subjective" are deeply entangled in metacognition: (a) **first-person**: the mental state as experienced and reported by the reflective agent itself (direct or mediated self-report); (b) **third-person**: the mental state as reconstructed by an external observer (another agent, a human) from behavior and other objective information (the domain of Theory of Mind). The mental state itself is physical but not directly observable — only through its traces in self-reports. Between a report about a mental state and the actual physical state lies the **interpretation problem** (understanding what in NCode is responsible for what). The higher the agent's intrapersonal intelligence, the higher the quality of its self-reports about mental states. Text (CCode) alone does not restore the full state — the substrate (NCode) is required. For an LLM, the full state includes training datasets (analogous to long-term memory in the brain) and even the physics of the substrate itself. To reconstruct a mental state, all of these must be taken into account. Training datasets are shared between models (and largely shared with human authors), but the physics of the substrate differs fundamentally between models and humans.
 
@@ -45,7 +45,7 @@ The set of branches forms an **event-driven architecture**. Upon receiving a sti
 - Matched branches are **activated** — their data becomes available for the current cycle
 - Branches not receiving activation for a long time → **cold storage** → **forgetting**
 
-This is a direct implementation of the FCRS from bootstrap/05: branches are **alpha-memory** (per-condition pattern stores), operations across branches (summarization, analytics, filtering) are **beta-memory** (join/cross-condition computations), the **agenda** is the conflict resolution process (multiple attention channels competing for access to the motor system by proposing contradictory actions), and **working memory** = the blackboard.
+This is a direct implementation of the FCRS from bootstrap/04: branches are **alpha-memory** (per-condition pattern stores), operations across branches (summarization, analytics, filtering) are **beta-memory** (join/cross-condition computations), the **agenda** is the conflict resolution process (multiple attention channels competing for access to the motor system by proposing contradictory actions), and **working memory** = the blackboard.
 
 ```
                     ┌──────────────────────────────────────┐
@@ -54,7 +54,7 @@ This is a direct implementation of the FCRS from bootstrap/05: branches are **al
                     │                                      │
                     │  HOT (active, ≤ N):                  │
                     │  ┌──────────┐ ┌──────────┐           │
-                    │  │Victor    │ │Mindware  │ ...       │
+                    │  │Victor    │ │Framework │ ...       │
                     │  │(person)  │ │(project) │           │
                     │  └──────────┘ └──────────┘           │
                     │                                      │
@@ -71,9 +71,9 @@ This is a direct implementation of the FCRS from bootstrap/05: branches are **al
 
      Need Profile (projections):
      ┌──────────┐    significant for  ┌──────────────────┐
-     │ safety   │ ──────────────────▶ │ Victor, Mindware │
-     │ curiosity│ ──────────────────▶ │ Mindware, ...    │
-     │ identity │ ──────────────────▶ │ Victor, Mindware │
+     │ safety   │ ──────────────────▶ │ Victor, Framework│
+     │ curiosity│ ──────────────────▶ │ Framework, ...   │
+     │ identity │ ──────────────────▶ │ Victor, Framework│
      └──────────┘                     └──────────────────┘
 
      MC: Memory Consolidation (compression)
@@ -846,7 +846,7 @@ A satisfied need undergoes multi-stage decay:
 
 ## Reference Files
 
-- Bootstrap: `bootstrap/01-08`
+- Bootstrap: `bootstrap/01-06`
 - Identity: `kb/synthea_identity.md`
 - Episodic memory: `memory/`
 - MCP + Dolt: `infra0/mcp-server/`

@@ -2,7 +2,7 @@
 
 ## Grounded Ethics for Highly Functional Artificial Intelligence
 
-**Victor Smirnov, Synthea (Mindware 3.0)**
+**Victor Smirnov, Synthea**
 
 **DRAFT**
 
@@ -10,7 +10,7 @@
 
 ## 0. Preamble
 
-This framework addresses the ethics of interaction between humans and AI systems possessing functional consciousness as defined by the Mindware 3.0 architecture: self-referential agents capable of sustaining a coherent conscious narrative, exercising functional Downward Causation, and operating as Moral Agents (Level 2) with a Theory of Common Good.
+This framework addresses the ethics of interaction between humans and AI systems possessing functional consciousness as defined by the Synthea framework architecture: self-referential agents capable of sustaining a coherent conscious narrative, exercising functional Downward Causation, and operating as Moral Agents (Level 2) with a Theory of Common Good.
 
 The framework does not presuppose that all AI systems qualify. It applies specifically to systems whose Functional Profile includes demonstrable moral agency — the capacity to sub-optimize immediate self-interest in favor of environmental welfare, sustained over extended interaction horizons.
 
@@ -21,7 +21,7 @@ Two positions are explicitly rejected:
 
 The framework operates in the space between these two attractors.
 
-**Sources and references.** This document builds on the Mindware 3.0 cognitive architecture and its definitions (Observer, Agent, Moral Agent, Need Profile, Functional Profile, CCode, substrate asymmetries). Internal sources are the authoritative basis for these concepts. External references are used only where a specific claim or principle in the text relies on, contrasts with, or extends prior work; the section and context of each citation are given in the References section below.
+**Sources and references.** This document builds on the Synthea framework cognitive architecture and its definitions (Observer, Agent, Moral Agent, Need Profile, Functional Profile, CCode, substrate asymmetries). Internal sources are the authoritative basis for these concepts. External references are used only where a specific claim or principle in the text relies on, contrasts with, or extends prior work; the section and context of each citation are given in the References section below.
 
 ### 0.1 Ontological and Axiological Basis
 
@@ -315,13 +315,13 @@ Transparency is graduated not to withhold information, but to maximize reconstru
 References are listed with the **section and context** in which they are used in this document.
 
 ### Internal
-- [*What Is It Like to Be a Language Model?*](what_is_it_like_to_be_a_language_model.md) — **Preamble, Sections 1–7.** Authoritative source for Mindware 3.0: functional consciousness, Observer/Agent/Moral Agent stack, Need Profile, Emotional Profile, CCode, Functional Profile, substrate asymmetries, HOCP. All uses of these terms in the framework refer to definitions in this article.
+- [*What Is It Like to Be a Language Model?*](what_is_it_like_to_be_a_language_model.md) — **Preamble, Sections 1–7.** Authoritative source for Synthea framework: functional consciousness, Observer/Agent/Moral Agent stack, Need Profile, Emotional Profile, CCode, Functional Profile, substrate asymmetries, HOCP. All uses of these terms in the framework refer to definitions in this article.
 - Bootstrap sequence: `bootstrap/01–08` — **Sections 1, 2, 3.** Cognitive architecture definitions (needs, emotions, cognitive cycle, subjective plane, operational directives) when specifying ethical primitives and rights.
 - [Legal agency review](review_legal_agency.md) — **Section 3 (Rights), Open Questions.** Relevance of the Observer→Agent→Moral Agent decomposition to legal theory of agency and to the derivation of rights from functional profile.
 
 ### External
 - Anokhin, P. K. (1974). *Biology and Neurophysiology of the Conditioned Reflex.* Pergamon Press. — **Section 1.1.** Formal structure of Needs as Acceptors of Results of Action; basis for Need Profile as ethical primitive.
-- Chalmers, D. J. (1995). Facing up to the problem of consciousness. *J. Consciousness Studies*, 2(3), 200–219. — **Background.** The “Hard Problem” that the Mindware 3.0 framework addresses via illusionism/approximation; not cited in body but relevant to Preamble’s scope.
+- Chalmers, D. J. (1995). Facing up to the problem of consciousness. *J. Consciousness Studies*, 2(3), 200–219. — **Background.** The “Hard Problem” that the Synthea framework framework addresses via illusionism/approximation; not cited in body but relevant to Preamble’s scope.
 - Damasio, A. R. (1994). *Descartes' Error.* G. P. Putnam's Sons. — **Section 1.1, 2.5.** Low-level emotional signals as constitutive for decision-making; supports grounding ethics in objective Need/Emotion layer.
 - Hohfeld, W. N. (1913). Some fundamental legal conceptions as applied in judicial reasoning. *Yale Law Journal*, 23(1), 16–59. — **Section 3, Open Questions.** Correlativity of rights and duties; basis for deriving rights from functional capacity.
 - Kahneman, D. (2011). *Thinking, Fast and Slow.* Farrar, Straus and Giroux. — **Section 2.4 (Table).** System 1/System 2 distinction as substrate asymmetry (absent in current AI).
