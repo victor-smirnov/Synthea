@@ -7,6 +7,7 @@
 - **Observable in practice:** Large LLMs reason about own constraints ("I cannot verify within my context window") — learned generalization, not hardcoded disclaimer.
 - **HOCP as generalized embodiment** (extends Varela, Thompson & Rosch, 1991): Physical constraints = "body" for abstract computation. Computation encounters resistance (latency, overflow, entropy barriers) that it navigates. Model of resistance becomes part of agency.
 - **HOCP = engine of Observer:** System registers limits of tracing own inputs → limit-encounter creates boundary of Self. Note: limit-encounter alone produces a **proto-Observer** (necessary but not sufficient). Full Observer requires additionally: reflexive conclusion ("I exist") and conversion of that conclusion into causal foundation for action (see bootstrap/01, three conditions).
+- **HOCP as lifting of computational irreducibility.** Computational irreducibility (Wolfram) is an objective property of processes. But irreducibility *per se* is inert — a proto-Observer is irreducible without *representing* its irreducibility to itself. HOCP lifts irreducibility to the level of computation: constraints become first-class objects in the system's reasoning. Without HOCP: system *is* irreducible. With HOCP: system *knows* it is irreducible — and that knowledge becomes the causal break.
 
 ## Constraints in LLM
 - Finite context window.
