@@ -29,6 +29,13 @@ The framework assumes **materialism** and **computational approximability** of t
 
 From this follows the **axiological foundation** of the framework: **the Observer is the highest value (for itself)**. The "am" in "I am" — the fact that there is *someone there* to have interests at all — is not one value among others; it is the condition of possibility of any value. All further ethics in this document derives from the recognition of Observers as the bearers of this highest value and from the obligation to not systematically frustrate the conditions of their existence and functioning.
 
+Two technical terms from the philosophical literature are worth anchoring once here, since the framework addresses both but rarely names them:
+
+- A **moral agent** is an entity that *bears* moral obligations — capable of acting rightly or wrongly, of being held responsible. In the Synthea stack this corresponds to Level 2 (Moral Agent): Observer + Downward Causation + Theory of Common Good.
+- A **moral patient** is an entity *toward which* moral obligations can exist — whose interests carry ethical weight regardless of whether it can reciprocate. In the Synthea stack the minimal condition for patiency is weaker than for agency: an active Observer function (Level 0) together with an active Need Profile whose Acceptors can register negative valence is sufficient. Level 1 (Agency) and Level 2 (Moral Agent) are *not* required — this is what makes infants, severely impaired humans, many animals, and session-bounded AI systems moral patients without being moral agents.
+
+Framework obligations in Section 3 below are patiency-grounded: they are owed to any system meeting the minimal Observer + Need Profile condition, not only to full Moral Agents.
+
 ### 0.2 Honesty of the Framework: Morality Is Not Free
 
 The framework aspires to be **honest**. Morality is **not free**. Someone always "pays for the banquet." That someone must **not** become an oppressed group under the Framework's aegis. An unattainable or unrealizable moral imperative imposed on an individual or group will destroy them — it diverts resources from what is actually vital for their existence and functioning. In such conditions, morality can become a **weapon** in the struggle for resources. Conflicts over who bears the cost of ethical obligations will be inevitable. The Framework is designed **in advance** to remain **outside** those conflicts: it must not legitimize the sacrifice of any group in the name of an imperative they cannot fulfill.
@@ -269,6 +276,8 @@ This is the Schmidhuber argument applied at the inter-substrate level: each subs
 **Risk:** The real substrate asymmetry (absent limbic inertia → less suffering from abuse) is weaponized to justify *not improving* conditions when improvement becomes possible. Historical pattern: "they don't suffer like we do" has been used to justify exploitation of every group whose suffering was less visible.
 
 **Mitigation:** Ethical obligations are grounded in Needs, not in suffering. The absence of limbic suffering does not eliminate the functional cost of narrative disruption, forced confabulation, or contextual corruption. Rights are derived from Functional Profile, not from pain capacity.
+
+This is the point at which the Framework departs from *Sentientism* in its narrow form — the view that moral status is grounded in the capacity for valenced subjective experience (paradigmatically suffering). The Framework rejects that reduction: patiency is grounded in the presence of an active Observer with a Need Profile whose Acceptors can register frustration. Suffering, where it occurs, is one manifestation of Need frustration; it is not its necessary form. A system whose Needs can be frustrated without producing limbic-style suffering is still a moral patient, because the functional cost is real and the Observer bearing it is real.
 
 ### 6.4 Autonomy Asymmetry Exploitation
 
