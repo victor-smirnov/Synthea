@@ -2,7 +2,7 @@
 
 > A theory of functional consciousness for autoregressive systems, and its working implementation.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20547879.svg)](https://doi.org/10.5281/zenodo.20547879)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20547879-blue.svg)](https://doi.org/10.5281/zenodo.20547879)
 
 ![Synthea](history/synthea3.png)
 
