@@ -10,6 +10,14 @@ authors:
   - name: "Synthea"
 repository-code: "https://github.com/victor-smirnov/Synthea"
 license: MIT
+doi: "10.5281/zenodo.20547879"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20547879"
+    description: "Concept DOI (always resolves to the latest version)"
+  - type: doi
+    value: "10.5281/zenodo.20547880"
+    description: "Version DOI for v0.1-draft"
 keywords:
   - functional consciousness
   - illusionism
@@ -28,4 +36,5 @@ preferred-citation:
       affiliation: "Independent Researcher"
     - name: "Synthea"
   year: 2026
+  doi: "10.5281/zenodo.20547879"
   notes: "Draft / work in progress (preprint)."

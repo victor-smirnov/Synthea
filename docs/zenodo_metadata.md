@@ -3,6 +3,10 @@
 Ready-to-paste fields for uploading the article to Zenodo as a preprint.
 File to upload: `docs/what_is_it_like_to_be_a_language_model.pdf`
 
+> **Published.** Concept DOI (cite this): `10.5281/zenodo.20547879` ·
+> Version DOI (v0.1-draft): `10.5281/zenodo.20547880` ·
+> Record: https://doi.org/10.5281/zenodo.20547879
+
 ---
 
 ## Form fields
