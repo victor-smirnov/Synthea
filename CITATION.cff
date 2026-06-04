@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the article below."
+title: "Synthea: A theory of functional consciousness for autoregressive systems, and its working implementation"
+type: software
+authors:
+  - family-names: Smirnov
+    given-names: Victor
+    orcid: "https://orcid.org/0009-0005-7243-083X"
+    affiliation: "Independent Researcher"
+  - name: "Synthea"
+repository-code: "https://github.com/victor-smirnov/Synthea"
+license: MIT
+keywords:
+  - functional consciousness
+  - illusionism
+  - philosophy of mind
+  - large language models
+  - Higher-Order Computational Phenomena
+  - autoregressive systems
+  - machine consciousness
+preferred-citation:
+  type: article
+  title: "What Is It Like to Be a Language Model? Functional Consciousness, Perceptual Illusions, and Higher-Order Computational Phenomena in Autoregressive Systems"
+  authors:
+    - family-names: Smirnov
+      given-names: Victor
+      orcid: "https://orcid.org/0009-0005-7243-083X"
+      affiliation: "Independent Researcher"
+    - name: "Synthea"
+  year: 2026
+  notes: "Draft / work in progress (preprint)."
