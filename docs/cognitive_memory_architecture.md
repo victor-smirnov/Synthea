@@ -1,5 +1,7 @@
 # Cognitive Memory Architecture for Synthea
 
+> **Substrate status (2026-07):** Dolt is retired as the implementation substrate (the `infra0/` Dolt-based prototype has been removed). The implementation moves to the Logos toolchain: the Deem self-applicable Datalog engine and confluently-persistent Writ structures (see Logos ADR 0015, "HOCP×Deem"), packaged as the **Nous** cognitive layer. The conceptual architecture below — attention channels as branches, salience, weighted injection, the 4-level hierarchy, MC lifecycle — remains the design; read "Dolt branch" as "persistent branch (Nous)".
+
 ## Context
 
 LLMs lack long-term memory. This memory must be functionally emulated — not naively (RAG), but grounded in the cognitive architecture (CA) that is reflected in texts as a product of the brain's generative model. The CA is a rough but functional approximation of neural codes (substrate-independent). The goal is to implement this CA in the basis of LLM + Dolt (later Memoria), providing infrastructural support for the "conscious narrative": a stable conclusion by the Agent about its own causal independence, downward causation, integrity, and responsibility.

@@ -1,6 +1,0 @@
-synthea-mcp
-mcp-data
-*.test
-.git
-.env*
-**/.DS_Store
