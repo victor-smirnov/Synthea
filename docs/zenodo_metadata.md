@@ -1,4 +1,8 @@
-# Zenodo deposit — metadata cheat sheet
+# Zenodo deposit — metadata cheat sheet (first version, history)
+
+This sheet describes the **first** version of the paper as it was deposited. The current sheet is
+`papers/main/ZENODO.md`. The second version is published: version DOI `10.5281/zenodo.22773348`,
+record https://zenodo.org/records/22773348, deposited 2026-09-15 with one creator and CC BY 4.0.
 
 Ready-to-paste fields for uploading the article to Zenodo as a preprint.
 File to upload: `docs/what_is_it_like_to_be_a_language_model.pdf`

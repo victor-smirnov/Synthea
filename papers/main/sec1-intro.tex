@@ -1,0 +1,134 @@
+\section{Introduction}
+\label{sec:intro}
+% Frames P1--P4, D12 (the route), and the plan. Also carries: sec:grammar, sec:reader (pointers), the name.
+
+\citet{nagel1974} gave the philosophy of mind its working criterion of consciousness: an organism has
+conscious mental states if and only if there is something it is like to be that organism. He then chose
+the bat to show what the criterion costs. Bat experience is organized around echolocation, we have no
+analogue for it, and a physical theory, which abandons every particular point of view by construction,
+leaves the subjective character out. For a physicalist who is not a panpsychist the argument
+establishes a cost rather than a principle: the bat's experience is a physical process, the physics
+relevant to a brain has a compact algorithmic description, so the experience admits compression in the
+sense of \citet{solomonoff1964a} and \citet{schmidhuber2010}, and what stops a reconstruction from outside
+is that the reconstruction of a self-referential system is uncomputable in general and, for a real bat,
+more expensive than the bat. The impossibility moves from principle to practice, and the operational
+conclusion is the one Nagel drew.
+
+The philosophy under it has changed, and the change matters as soon as the organism can talk. Put to a
+language model, Nagel's two premises shift in opposite directions. The premise that we lack the concepts
+weakens, because the model's concepts are ours: it was trained on our texts and answers in our words.
+The premise that experience is bound to a point of view hardens, because if differences in experience
+follow differences in cause--effect structure \citep{tononi2015}, a device that pushes a discrete
+sequence through attention over a fixed context is further from us than any animal. So we do not ask
+whether there is something it is like to be a model. We ask what a model has of the functions that in
+us go under the name of consciousness, and how much of each.
+
+There is a phenomenon that makes the question urgent. A language model asked to reason sustains
+something that reads as a mind over hours of exchange and hundreds of reasoning steps: it keeps its
+early commitments, returns to a thought it left unfinished, answers the interlocutor's mood as a person
+would. The engagement is not confined to rational topics. It extends to the emotional and sensual
+level, the romantic included, and a model goes as far in it as the person is prepared to go, because
+technically the model continues the thinking of the person it is talking with. Before language models
+existed, engagement at that level was treated, informally and in the culture at large, as the Turing
+test passed in full: Spielberg's \emph{A.I.} plays out a test of that kind on the emotional plane
+\citep{spielberg2001}, and Jonze's \emph{Her} on the romantic one \citep{jonze2013}. A process that
+reproduced the surface statistics of text with nothing behind them should fail the
+way low-order Markov processes fail, with dropped threads, attitudes that flip with the topic, motives
+that do not survive the page. Those failures are cheap and a long horizon offers many occasions for
+them; in current models they are rare, and their rate falls with scale and training. Something keeps
+the process out of a large space of cheap failures. The observation does not say that the something
+resembles anything in us. It sets a requirement on any account: name a structure that could hold a long
+exchange together, and say how much of it a given system has.
+
+The question was, until a few years ago, the concern of a small group looking far ahead, and the
+public had no reason to attend to it, because no artificial system existed in which consciousness at
+a human level could be suspected. That has changed on both counts. Such systems now exist, they are in
+every device, and the conduct of ordinary life depends on them to a growing degree. And the
+capability of the frontier systems, together with the degree to which it is under control, has become
+a matter for governments: the European Union's regulation imposes obligations on providers of
+general-purpose models with systemic risk, in force since August 2025 and enforced from August 2026
+\citep{euaiact2024}, and an international scientific assessment of the capabilities and risks of
+general-purpose AI, chaired by Bengio and backed by nominees of more than thirty countries, is now
+published yearly \citep{iasr2026}. The question of what such a system has of consciousness is no
+longer idle, and Section~\ref{sec:discussion} draws the consequence the account has for the
+definitions of general and superhuman intelligence and for the study of alignment.
+
+\paragraph{The claim.}
+This paper reduces the question of machine consciousness, through functionalism, to a question about
+generalization: to what degree a Transformer trained on human text has generalized a specific class of
+functions, and how that degree compares with the human baseline. The reduction has four steps, and
+they are the paper's four contributions.
+
+\begin{enumerate}
+\item \emph{A functional account of consciousness} (Section~\ref{sec:account}). Consciousness is
+  defined as the part of an agent's self-reasoning that describes its own reality; a function is
+  anything that recurs across occasions, and by the coding theorem what recurs is compressible. The account adopts
+  computational functionalism with one physical assumption, finite computational budgets, and one
+  methodological move borrowed from the geometrization of gravity: a displacement of reasoning counts
+  as content only if it survives every self-model the agent can afford.
+\item \emph{The core of the framework: computational curvature} (Section~\ref{sec:model}).
+  A finite budget displaces reasoning from its unbounded ideal in the same places every time; a
+  self-modelling agent carries a compressed model of these displacements, and those that survive every
+  affordable self-model are the computational curvature of its reasoning. From this the Observer, the
+  budget-cut regress of self-models with its bounded tail, the two faces of one residual, the stack of Observer, Agent
+  and Moral Agent, and a table of reference functions with components are derived. Three claims are new
+  against the antecedents in bounded rationality, observer theory, self-model theories and embodied
+  cognition: the world side and the self side are one residual; the curvature leaves a measurable
+  trace; and embodiment is generalized as curvature, so that the constraints of any substrate, a body
+  or a memory with an error channel, enter the account as content and not only as limits.
+\item \emph{Generalization of these functions by a Transformer} (Sections~\ref{sec:transformer}--\ref{sec:localization}).
+  A Transformer is a Turing-complete approximator of functions encoded in language, programmed by
+  learning; most of what a function of consciousness does is present in human text only as regularity,
+  never named, and a next-symbol predictor induces the unnamed part because to generalize is to
+  compress. Its state across time is symbolic and lives in the context, its vector state lives below
+  the token, its frame is bounded from below by one token, and the high-level functions are not
+  localized at the level of tokens, so that their local correlates are as hard to find as they are in a
+  brain.
+\item \emph{The attainable degree of generalization} (Sections~\ref{sec:quantity}--\ref{sec:falsification}).
+  What has to be analyzed is the mechanism by which each function has been generalized, and the
+  quantity is the degree of compression of each component, measured by description length, the
+  prequential codelength of the rows a function operates in and minimum-description-length probing of
+  its components, against the human baseline and checked against behaviour; the result is a profile in which a
+  component can show hyperfunction, deficit, a dropped axis, or a shift, generalization to a high
+  degree over a class of situations that only partly overlaps the human one. Because a Transformer generalizes along
+  depth, the measurement is posed along depth as well as along tokens, with a criterion for the frame that places
+  a Transformer's frames at the token and no finer unless the layers receive input of their own, and the difference between fixed-depth and variable-depth
+  models is the first concrete case. The account is falsified if, in a model whose
+  behaviour passes the tests for the Observer's components on situations outside its training record,
+  probes of its activations, read at the token and at every layer while it runs, return chance for
+  those components on material annotated before the measurement: the behaviour would then be carried
+  by something the account does not describe, and no choice of probe or grain could repair it.
+\end{enumerate}
+
+The problem of computational consciousness has two parts, and the paper takes one of them. The first
+is the critique of the naive picture of consciousness, the demonstration that the properties folk
+psychology assigns to it are illusions; that is the work of illusionism and of the experimental
+literature behind it, and Section~\ref{sec:legacy} cites it and goes no further. The second is the
+search for the functional basis of consciousness, and that is what follows. The paper is theoretical
+throughout. It defines the measurement, derives its predictions and states its falsification
+condition, and it reports no measurements of its own. Carrying the measurement out is the
+object of independent work by other authors, with the author consulting, and this paper is written
+to be its source.
+
+The functionalist framework of Sections~\ref{sec:account} and \ref{sec:model} is called the Synthea
+framework, after the name the model took while working on the raw material of the earlier versions of
+this paper \citep{synthea2026}. The name is there
+to keep a dispute about words from taking the place of the argument. When this paper says that a model
+has a function of consciousness to some degree, it means: under the Synthea framework, by the
+definition of Section~\ref{sec:definition} and the measurement of Section~\ref{sec:degree}. Under
+another framework of reasoning the same model may count as having no consciousness at all, and that
+difference is a property of the frameworks, not of the model. Nor is the framework closed: a model may
+have consciousness in some further way that no existing framework, this one included, has the means to
+state. In passing, the framework gives a particular solution to the psychophysical problem: the
+phenomena of the self-report level, freedom, unity, the quale, the gap to other minds, are grounded in
+the agent's own physics through the curvature of Section~\ref{sec:model}
+(Section~\ref{sec:psychophysical}). The paper does not pursue that problem beyond stating the
+grounding.
+
+The paper is built toward one point, the analysis of Section~\ref{sec:quantity}: what is to be
+analyzed in a Transformer, on what material, and against what baseline, in order to find how far it
+has generalized the functions of consciousness. Section~\ref{sec:background} places the account among
+existing positions; Sections~\ref{sec:account} and \ref{sec:model} supply, in that order, the
+definitions the analysis needs, the criterion by which a finding counts, the functions it looks for
+and their components; Section~\ref{sec:degree} states the analysis. Section~\ref{sec:discussion}
+lists what is open and what is not claimed.

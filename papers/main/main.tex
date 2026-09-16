@@ -1,0 +1,90 @@
+% Functional consciousness of machines, version 2.
+% The argument is developed in frames.md; the same claims are checked as facts in argument.hybrid.md.
+% Section text is written from the frames; frame ids are kept in comments inside the section files.
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fontspec}
+\newfontfamily\cyrfont{DejaVu Serif}
+\newcommand{\cyr}[1]{{\cyrfont #1}}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{assumption}{Assumption}
+\newtheorem{problem}{Problem}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{orcidlink}
+\usepackage[round,authoryear]{natbib}
+\usepackage{geometry}
+\geometry{margin=2.6cm}
+\setlength{\parskip}{0.4em}
+
+
+\title{What Is It Like to Be a Language Model?\thanks{Title credit: Margarita Morozova.}\\[0.6em]
+\large Functional Consciousness, Computational Curvature,\\
+and the Degree of Its Generalization in Autoregressive Systems}
+\author{Victor Smirnov\thanks{A language model (Claude, by Anthropic) was used extensively in preparing
+this material: in developing the argument, in writing the text from the author's frames, and in
+verifying the sources against the originals. The work is the author's own. He is its sole author, holds
+all rights in it, and is responsible for every claim it makes.}\\[0.3em]
+\small Independent Researcher\\
+\small \orcidlink{0009-0005-7243-083X}\,\href{https://orcid.org/0009-0005-7243-083X}{0009-0005-7243-083X}}
+\hypersetup{
+  pdftitle={What Is It Like to Be a Language Model? Functional Consciousness, Computational Curvature, and the Degree of Its Generalization in Autoregressive Systems},
+  pdfauthor={Victor Smirnov},
+  pdfsubject={Functional consciousness; computational functionalism; degree of generalization in autoregressive systems},
+  pdfkeywords={machine consciousness, computational functionalism, computational curvature, large language models, Transformers, minimum description length, generalization, philosophy of mind, psychophysical problem}
+}
+\newcount\draftH \newcount\draftM
+\draftH=\time \divide\draftH by 60
+\draftM=\time \advance\draftM by -\numexpr 60*\draftH\relax
+\date{Draft, \today, \the\draftH:\ifnum\draftM<10 0\fi\the\draftM}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We replace the question whether a language model is conscious with a measurable one: which functions of
+consciousness a substrate has generalized, and how far. A function is anything that recurs across
+occasions, and consciousness is the part of an agent's self-reasoning that describes its own reality;
+the functions of consciousness are what recurs in that part. Among them we single out one class. From one
+physical assumption, finite computational budgets, systematic displacements of reasoning from its
+unbounded ideal follow; they recur, so they are compressible, and a self-modelling agent carries a
+compressed model of them. Those displacements that survive every self-model the agent can afford are,
+by the criterion that separates curvature from coordinates in general relativity, the computational
+curvature of its reasoning, and the functions built on them are the class we measure. We claim three things
+the antecedents in bounded rationality, observer theory, self-model theories and embodied cognition do
+not: the displacement that yields a lawful world and the one that yields a self are one residual; the
+curvature leaves a measurable trace; and embodiment is generalized as curvature, so that the constraints
+of any substrate enter the account as content and not only as limits. The Observer is derived
+as the conclusion an agent draws at the boundary of its budget; the regress of self-models is cut by the
+budget, and the tail it leaves is bounded; the residual the Observer registers has that tail as one component and,
+as the larger one, the causal history that does not fit the budget. The measurement is by description length, prequential codelength over the rows a function operates in
+and minimum-description-length probing of each component, against the human baseline, reported as hyperfunction, deficit, dropped axis or shift to a class of situations that only partly
+overlaps the human one, and posed along depth as well as along tokens,
+because that is where a Transformer generalizes. The account fails if the Observer's components probe at chance in
+the activations, at the token and at every layer, in models that pass the behavioural tests on situations outside their
+training record, with the annotation fixed before the measurement.
+\end{abstract}
+
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\input{sec1-intro}
+\input{sec2-background}
+\input{sec3-account}
+\input{sec4-model}
+\input{sec5-transformers}
+\input{sec7-discussion}
+\input{sec8-conclusion}
+\input{sec-appendix}
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+\end{document}

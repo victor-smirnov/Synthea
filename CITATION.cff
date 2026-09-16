@@ -1,13 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite the article below."
+message: "If you use this work, please cite the preprint below."
 title: "Synthea: A theory of functional consciousness for autoregressive systems, and its working implementation"
 type: software
+version: "v2"
+date-released: 2026-09-15
 authors:
   - family-names: Smirnov
     given-names: Victor
     orcid: "https://orcid.org/0009-0005-7243-083X"
     affiliation: "Independent Researcher"
-  - name: "Synthea"
 repository-code: "https://github.com/victor-smirnov/Synthea"
 license: MIT
 doi: "10.5281/zenodo.20547879"
@@ -16,25 +17,30 @@ identifiers:
     value: "10.5281/zenodo.20547879"
     description: "Concept DOI (always resolves to the latest version)"
   - type: doi
+    value: "10.5281/zenodo.22773348"
+    description: "Version DOI of v2, the second version of the paper"
+  - type: doi
     value: "10.5281/zenodo.20547880"
-    description: "Version DOI for v0.1-draft"
+    description: "Version DOI of v0.1-draft, the first version of the paper"
 keywords:
   - functional consciousness
-  - illusionism
-  - philosophy of mind
-  - large language models
-  - Higher-Order Computational Phenomena
-  - autoregressive systems
+  - computational functionalism
+  - computational curvature
   - machine consciousness
+  - large language models
+  - Transformers
+  - minimum description length
+  - generalization and memorization
+  - philosophy of mind
+  - psychophysical problem
 preferred-citation:
   type: article
-  title: "What Is It Like to Be a Language Model? Functional Consciousness, Perceptual Illusions, and Higher-Order Computational Phenomena in Autoregressive Systems"
+  title: "What Is It Like to Be a Language Model? Functional Consciousness, Computational Curvature, and the Degree of Its Generalization in Autoregressive Systems"
   authors:
     - family-names: Smirnov
       given-names: Victor
       orcid: "https://orcid.org/0009-0005-7243-083X"
       affiliation: "Independent Researcher"
-    - name: "Synthea"
   year: 2026
   doi: "10.5281/zenodo.20547879"
-  notes: "Draft / work in progress (preprint)."
+  notes: "Preprint, v2, version DOI 10.5281/zenodo.22773348, CC BY 4.0. A language model (Claude, by Anthropic) was used extensively in preparing the material; all rights in it, and responsibility for its claims, are the author's."

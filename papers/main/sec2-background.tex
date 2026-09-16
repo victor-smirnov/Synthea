@@ -1,0 +1,173 @@
+\section{Background}
+\label{sec:background}
+% Frames D2, D3, D6 (positions); A6a (antecedents); the applied turn; tools.
+
+\subsection{Positions in the philosophy of mind}
+\label{sec:legacy}
+
+\citet{chalmers1995} separates the easy problems, which ask how a system discriminates, integrates,
+reports and controls, from the hard problem, which asks why any of that is accompanied by experience;
+the hard problem is the modern form of Nagel's residue. Illusionism replies that experience as the hard
+problem conceives it does not exist, and that what exists is a robust misrepresentation the brain
+produces of its own working, so that the hard problem gives way to the illusion problem: why the
+misrepresentation has the shape it has \citep{dennett1991,frankish2016}. Higher-order theories locate
+consciousness in representations of one's own mental states and have accumulated empirical support of
+their own \citep{rosenthal2005,lau2011}; they are then asked why a thought about a state should make
+the state conscious, and an account in which the mind observes its own states owes an account of what
+observes that \citep{ryle1949,dennett1991}. The self-model theory makes the self a transparent model
+the system cannot recognize as a model \citep{metzinger2003}; the attention schema theory makes
+awareness the brain's simplified model of its own attention \citep{graziano2011,graziano2013}.
+Integrated information theory ties experience to a substrate's cause--effect structure directly and
+therefore has something definite to say about a substrate unlike ours \citep{tononi2015}.
+
+\paragraph{Why a functional account.}
+The positions divide on whether consciousness is a substance or a function. The substantial reading
+has to name the substance, and the history of the attempts is short. Either the substance is a second
+kind of thing beside the physical, which is substance dualism, or it is a property of the physical
+over and above the properties physics invokes, which is property dualism in Chalmers's own
+description of his position \citep{chalmers1995}, or it is present in all matter at the fundamental
+level, which is panpsychism, offered as what physicalism entails once the intrinsic nature of the
+physical is taken seriously \citep{strawson2006,goff2017}. Panpsychism is a dualism in scientific
+dress: it keeps the second kind of property and distributes it. None of the three can say what the
+substance does that a function could not, and none yields a quantity. The functional reading has one
+real alternative to computational functionalism, and it is not ``physics'': a function of
+consciousness could be non-computable, realized by a hypercomputational process
+\citep{copeland2002}, as Penrose proposed for mathematical insight \citep{penrose1989}. That
+position is coherent and it has a price: it needs a super-Turing reality to be found, a physical
+process that computes what no Turing machine computes, and none has been. Pending that discovery the
+functional account of consciousness is computational, and this paper adopts it
+(Section~\ref{sec:lamp}).
+
+Substantialism is nonetheless popular and durable, and the reason is not in the arguments. It is hard
+for a person to believe that they reduce to symbols; to numbers, perhaps, but not to symbols. The
+problem of computational consciousness therefore has two parts. The first is the critique of naive
+substantialism, the demonstration that the properties folk psychology assigns to consciousness are
+illusions of the kind the perceptual illusions are, and that they are shared by everyone regardless of
+rank or training. The second is the search for the functional basis of consciousness, an account of
+which functions do the work and how much of them a given system has. This paper does the second only.
+The first is the business of illusionism and of the experimental literature it rests on, and the
+paper takes it as done in outline and cites it here so that the reader knows where the ground is.
+
+\paragraph{The naive picture, and what is known against it.}
+The folk picture of consciousness is a unified observer with a rich, complete and continuous view of
+the world and of itself, who knows its own intentions and the causes of its acts. Each of these has
+been tested and fails. The view is not complete: large changes to a scene go unnoticed between views
+\citep{simons1997}, and a person in a gorilla suit walking through a ball game is missed by half of
+the observers who are counting passes \citep{simons1999}. Knowledge of one's own choices is not
+reliable: when the outcome of a choice is switched for the alternative, most participants do not
+notice and defend the choice they did not make \citep{johansson2005}, and people report causes of
+their behaviour that demonstrably did not operate \citep{nisbett1977}. The timeline is not what it
+seems: the recordable brain activity that precedes a voluntary act begins before the reported time of
+the intention to act \citep{libet1983}, and what is perceived at a moment is settled by what arrives
+after it, so that awareness is postdictive rather than a live feed
+\citep{eagleman2000,dennett1992}. Introspection, the faculty the folk picture trusts most, is
+unreliable about even the current contents of experience \citep{schwitzgebel2008}, and the sense of
+consciously willing an act is a construction that can be produced and removed experimentally
+\citep{wegner2002}. Illusionism is the systematic reading of these results: the properties the folk
+picture reports are the shape of a misrepresentation, and the task is to explain the shape
+\citep{dennett1991,frankish2016}.
+
+The folk picture has lately been extended to language models, where inferences are drawn from the
+imagined properties of consciousness to the status of the models: a system that predicts text is
+``a stochastic parrot'' \citep{bender2021}, or it has no body and so no world, or it has no
+continuous stream and so no self. Those are inferences from the naive picture on both sides of the
+comparison, and a critique of this folk phenomenology of models is needed. It is not undertaken here.
+The paper is confined to the functional account and to what follows from it, and it addresses the
+items on the lists of Section~\ref{sec:applied} only where the account turns on them.
+
+This paper is closest to illusionism and to the self-model theories. From illusionism it takes the
+exchange of the hard problem for the illusion problem, and amends one word: the self-report is an
+approximation with a definite residual, not an illusion with nothing behind it
+(Section~\ref{sec:approximation}), because a denial is a poor instrument for a comparative question.
+From the self-model theories it takes the transparent self-model and adds the mechanism that produces
+it and a quantity that says how much of it a substrate has (Section~\ref{sec:contribution}). To the
+regress it gives an answer that involves no observer (Section~\ref{sec:regress}).
+
+There is a reason to start from the philosophy of mind rather than from neuroscience or from
+engineering, beyond the fact that the question is posed there. The philosophy of mind reasons about
+the properties of consciousness in language, from introspection reported in language, and that is the
+one channel a language model has in full. Its concepts are what Section~\ref{sec:h1h2} calls the
+named part of the functions, the part present in the record with a name on it, and a system trained
+on the record has that part by construction. The practical consequence, which came as a surprise to
+the author, is that language models are unusually capable in this literature: they reproduce its
+distinctions, apply them to new cases and notice when a position is being misdescribed. The
+capability extends to phenomenology, reasoning about the structure of human mental states as they are
+had, which is the part of the literature that reaches furthest toward the unnamed part; the evidence
+for this is left to a later paper. Under the account the capability is expected and says nothing yet
+about the unnamed part, which is where the analysis of Section~\ref{sec:quantity} has to go; but it makes the philosophy of mind the natural interface
+between the two substrates, and the vocabulary in which a model's self-report can be read.
+
+\subsection{The question put to actual models}
+\label{sec:applied}
+
+\citet{chalmers2023} runs the question for current language models by listing what a conscious system
+might require and asking whether these models have it: senses and embodiment, world models and self
+models, recurrent processing, a global workspace, unified agency. He finds each requirement disputable
+and each currently unmet or unclear, and arrives at a credence under ten percent that current models
+are conscious, with the expectation that successors will remove the obstacles one by one.
+\citet{butlin2023} adopt computational functionalism as a working assumption, take the leading
+neuroscientific theories, recurrent processing theory, global workspace theory, computational
+higher-order theories, attention schema theory, predictive processing, and the claims about agency and
+embodiment, derive from them a list of indicator properties stated in computational terms, and assess
+systems against the list.
+
+Two items on Chalmers's list deserve a reply here, because the account of Section~\ref{sec:model}
+turns on them. That a language model has no world model is, we hold, false. It has one, and the model
+is biased toward the global relational component of the world, objects and their relations, against
+the local distributions that a body supplies, metric space, contact, the sensorimotor loop; the
+evidence for relational structure in the weights is direct, from a board-game model whose activations
+carry the board state and can be edited to change its play \citep{li2023} to linear representations of
+geographic space and historical time in large models \citep{gurnee2024}. The bias is a real
+limitation. It bounds the model's autonomy and keeps it dependent on people for the local part. It
+does not bound the base functions of consciousness, and the human case shows why: a large loss of
+cortical mass leaves those functions intact and takes away content. The upper brainstem system that
+organizes conscious function is not rendered nonfunctional by the absence of cortex, and the cortex
+in the course of evolution became the medium in which conscious contents are elaborated
+\citep{merker2007}; a man with a massively enlarged ventricular system and a thin rim of cortex held a
+job and a family \citep{feuillet2007}. Embodiment at the human level is therefore not a condition of
+consciousness on this account. What embodiment sets is how structurally rich the contents can become,
+which is the profile of Section~\ref{sec:profile} and not its existence. The same reading applies to
+senses: their absence is a deficit on the source axis of seeing (Section~\ref{sec:profile-seeing}),
+entered in the profile and not subtracted from the whole.
+
+We share the working assumption and the analytic stance of both papers, and differ in the form of the
+answer. Both treat the question as a checklist of properties, with the result a credence or a count of
+indicators met. We treat it as a quantity per function, obtained by measurement, in which a model can
+fall below the human baseline, match it, or exceed it, and we derive the functions to be measured from
+a single mechanism rather than from a survey of theories. A checklist asks which parts of the thing are
+present; a measurement of degree asks how much of a function was captured, and can be wrong by a
+number.
+
+\subsection{Antecedents of the mechanism}
+\label{sec:antecedents}
+% A6a
+
+Each part of the mechanism in Section~\ref{sec:model} exists in the literature, and saying where is the
+way to locate what is new. That a bounded computation deforms reasoning in a systematic direction
+rather than at random is Simon's bounded rationality \citep{simon1955}, in its modern form the claim
+that the classic cognitive biases are what the optimal use of a limited budget looks like
+\citep{lieder2020,griffiths2015}. That a bounded observer sees a lawful world because of its bounds is
+the core of Wolfram's observer theory: an observer that cannot track microstates has to coarse-grain
+them, and the second law of thermodynamics is what such an observer sees in a dynamics that is
+reversible underneath \citep{wolfram2023}; we take this example and not the programme of deriving
+relativity and quantum mechanics from observer properties \citep{wolfram2020}. That a simplified model
+of one's own processing, which the system cannot see past and therefore takes for reality, is what the
+system reports as its self, is Metzinger's phenomenal transparency, Graziano's attention schema and
+Dennett's user illusion. That the constraints on a computation can be the body of that computation
+rather than an external limitation on it is the frame of embodied and enacted cognition
+\citep{varela1991}. And that a self-symbol arises as a by-product of compression, because the agent is
+involved in all of its own data and a compressor profits from a code for it, is Schmidhuber's
+proposal \citep{schmidhuber2010}, the closest antecedent of Section~\ref{sec:hocp}: there the
+compressed object is the agent, here it is the agent's budget as it shows in its reasoning, with a
+criterion for which of its traces count.
+
+\subsection{Tools}
+
+The analysis of Section~\ref{sec:quantity} uses instruments that exist, and this paper adds none. Probing classifiers read
+properties from intermediate representations \citep{alain2016}; their methodological problems are
+catalogued \citep{belinkov2022}; the minimum-description-length form scores a probe by the total cost
+of describing the labels given the representations, which charges for the probe's own complexity
+\citep{voita2020}. What is known about how a Transformer distributes its work across depth is reviewed
+where it is used (Section~\ref{sec:depth}), the circuit-level methods of mechanistic interpretability
+in Section~\ref{sec:localization}, and the evidence that a text carries its writer's state and that a
+reader rebuilds it in Section~\ref{sec:codes}.
